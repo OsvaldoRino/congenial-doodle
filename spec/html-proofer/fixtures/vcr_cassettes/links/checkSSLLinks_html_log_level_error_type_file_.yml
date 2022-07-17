@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: https://developers.google.com/university
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (compatible; HTML Proofer/3.19.3; +https://github.com/gjtorikian/html-proofer)
+      Accept:
+      - application/xml,application/xhtml+xml,text/html;q=0.9, text/plain;q=0.8,image/png,*/*;q=0.5
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      last-modified:
+      - Wed, 20 May 2015 15:22:03 GMT
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - _ga_devsite=GA1.3.1304027304.1640968663; Expires=Sun, 31-Dec-2023 16:37:43
+        GMT; Max-Age=63072000; Path=/
+      content-security-policy:
+      - 'base-uri ''self''; object-src ''none''; script-src ''strict-dynamic'' ''unsafe-inline''
+        https: http: ''nonce-teH5KjQTaNnuYhLGrwwfqdBLw8uBmq'' ''unsafe-eval''; report-uri
+        https://csp.withgoogle.com/csp/devsite/v2'
+      strict-transport-security:
+      - max-age=63072000; includeSubdomains; preload
+      x-frame-options:
+      - SAMEORIGIN
+      x-xss-protection:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      cache-control:
+      - no-cache, must-revalidate
+      expires:
+      - '0'
+      pragma:
+      - no-cache
+      x-cloud-trace-context:
+      - 9d5a68c0cff6c8066cc0fcd4bfe32a9d
+      content-length:
+      - '42652'
+      date:
+      - Fri, 31 Dec 2021 16:37:43 GMT
+      server:
+      - Google Frontend
+      alt-svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version: '2'
+    adapter_metadata:
+      effective_url: https://developers.google.com/university
+  recorded_at: Fri, 31 Dec 2021 16:37:44 GMT
+recorded_with: VCR 2.9.3
