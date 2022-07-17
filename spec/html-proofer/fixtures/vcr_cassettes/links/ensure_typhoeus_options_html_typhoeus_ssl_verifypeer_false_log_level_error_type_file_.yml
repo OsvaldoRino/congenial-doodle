@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: https://blog.patternsinthevoid.net/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (compatible; HTML Proofer/3.19.3; +https://github.com/gjtorikian/html-proofer)
+      Accept:
+      - application/xml,application/xhtml+xml,text/html;q=0.9, text/plain;q=0.8,image/png,*/*;q=0.5
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - TRACKID=fd32f34415aa4cae10d22e5d5696f85f; Path=/; Version=1
+      Content-Type:
+      - text/html; charset=utf-8
+      Accept-Ranges:
+      - bytes
+      ETag:
+      - '"4239476039"'
+      Last-Modified:
+      - Tue, 15 Sep 2020 22:10:38 GMT
+      Content-Length:
+      - '30204'
+      Date:
+      - Fri, 31 Dec 2021 16:37:37 GMT
+      Server:
+      - fuck your bits
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://blog.patternsinthevoid.net/
+  recorded_at: Fri, 31 Dec 2021 16:37:37 GMT
+recorded_with: VCR 2.9.3
