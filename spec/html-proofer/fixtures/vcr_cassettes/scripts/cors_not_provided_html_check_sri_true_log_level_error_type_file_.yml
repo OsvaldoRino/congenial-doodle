@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: http://code.jquery.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Mozilla/5.0 (compatible; HTML Proofer/3.19.3; +https://github.com/gjtorikian/html-proofer)
+      Accept:
+      - application/xml,application/xhtml+xml,text/html;q=0.9, text/plain;q=0.8,image/png,*/*;q=0.5
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Dec 2021 16:38:20 GMT
+      Connection:
+      - Keep-Alive
+      Cache-Control:
+      - max-age=23085564
+      Content-Length:
+      - '22380'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Accept-Ranges:
+      - bytes
+      Server:
+      - nginx
+      X-Pingback:
+      - https://codeorigin.jquery.com/xmlrpc.php
+      Link:
+      - <//codeorigin.jquery.com/wp-json/>; rel="https://api.w.org/"
+      Vary:
+      - Accept-Encoding
+      X-HW:
+      - 1640968700.dop215.ny3.t,1640968700.cds049.ny3.c
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: http://code.jquery.com/
+  recorded_at: Fri, 31 Dec 2021 16:38:20 GMT
+recorded_with: VCR 2.9.3
